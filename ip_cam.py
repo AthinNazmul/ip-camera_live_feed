@@ -1,8 +1,8 @@
 import cv2
 
 camera_ip = "192.168.0.64"
-username = "admin"
-password = "camera201"
+username = "000000"
+password = "000000"
 
 stream_url = f"rtsp://{username}:{password}@{camera_ip}/Streaming/channels/1/"
 
