@@ -24,8 +24,8 @@ while True:
     cv2.imshow('Rover Camera Feed(Science)', frame)
 
     # Exit on 'q' key press
-    #if cv2.waitKey(1) == ord('q'):
-       # break
+    if cv2.waitKey(1) == ord('q'):
+       break
 
 
 cap.release()
